@@ -92,5 +92,44 @@ An advanced real-time dashboard application for predicting Bitcoin prices and te
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/bitcoin-price-prediction.git
+   git clone https://github.com/Undertheworld-hub/ALAD2.git
    cd bitcoin-price-prediction
+
+2. Install required packages:
+  ```sh
+pip install -r requirements.txt
+```
+3. Run the application:
+```sh
+  python main.py
+```
+### Usage
+- Real-Time Data Display: The application fetches and displays real-time Bitcoin market data using candlestick -charts.
+- Technical Indicator Calculation: It calculates and integrates various technical indicators to assist in market analysis.
+- Price and Indicator Prediction: The application uses advanced ML and DL models to predict future prices and indicators.
+- Market Sentiment Integration: It fetches and displays market sentiment data to provide context to price movements.
+- User Interaction: The interface updates automatically every 60 seconds to provide the latest market data and predictions.
+
+## Project Structure
+```sh
+bitcoin-price-prediction/
+│
+├── main.py                  # Main application file
+├── requirements.txt         # Python package requirements
+├── models/
+│   ├── lstm_model.h5        # Pre-trained LSTM model
+│   ├── dnn_model.h5         # Pre-trained DNN model
+│   ├── lr_model.joblib      # Pre-trained Linear Regression model
+│   ├── rf_model.joblib      # Pre-trained Random Forest model
+│
+└── README.md                # Project description and setup instructions
+```
+### Contribution 
+- Contributions are welcome! Please fork the repository and create a pull request with your changes.
+- tell me for more information
+
+# License 
+- Distributed under the MIT License. See LICENSE for more information.
+
+# Contact 
+- Math.932 - mvilbouxduplessis@gmail.com
