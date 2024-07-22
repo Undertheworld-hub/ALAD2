@@ -44,7 +44,7 @@ An advanced real-time dashboard application for predicting Bitcoin prices and te
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/bitcoin-price-prediction.git
+   git clone https://github.com/Undertheworld-hub/ALAD2.git
    cd bitcoin-price-prediction
 # Bitcoin Price Prediction with Real-Time Dashboard
 
